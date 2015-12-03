@@ -129,7 +129,7 @@ public class HdfsUtils {
 					fsOutput.close();
 				} catch (IOException e) {
 					e.printStackTrace();
-				} 
+				}
 			}
 			closeFS(fs);
 		}
